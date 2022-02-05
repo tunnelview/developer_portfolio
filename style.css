@@ -1,7 +1,10 @@
 .top-nav {
   height: 60vh;
   background: linear-gradient(180deg, #59b5d2 0%, rgba(89, 181, 210, 0) 100%);
-  background: url(./assets/cover_logo.jpg) no-repeat center;
+  background: url(./assets/cover_logo.jpg) no-repeat center center;
+  /* line 4 added another center (one each for vertically and horizontally)for as if 
+  the image size is not proportionate to the div size then it will either match the 
+  hight and distort the width or it will match the width and distort the height */
   background-size: cover;
 }
 
