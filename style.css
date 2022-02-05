@@ -3,4 +3,6 @@
   background: linear-gradient(180deg, #59b5d2 0%, rgba(89, 181, 210, 0) 100%);
 }
 a.nav-link {
+  font-weight: bold;
+  color: orange !important;
 }
