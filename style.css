@@ -1,5 +1,5 @@
 .top-nav {
-  height: 60vh;
+  height: 140vh;
   background: linear-gradient(180deg, #59b5d2 0%, rgba(89, 181, 210, 0) 100%);
   background: url(./assets/cover_logo.jpg) no-repeat center center;
   /* line 4 added another center (one each for vertically and horizontally)for as if 
