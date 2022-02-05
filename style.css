@@ -1,8 +1,16 @@
 .top-nav {
   height: 60vh;
   background: linear-gradient(180deg, #59b5d2 0%, rgba(89, 181, 210, 0) 100%);
+  background: url(./assets/cover_logo.jpg) no-repeat center;
+  background-size: cover;
 }
+
 a.nav-link {
   font-weight: bold;
-  color: orange !important;
+  color: orangered !important;
+  letter-spacing: 0.1em;
+}
+a.nav-link:hover {
+  color: orangered !important;
+  /* cursor: pointer !important; */
 }
