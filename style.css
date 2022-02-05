@@ -1,5 +1,4 @@
 .top-nav {
   height: 60vh;
-  background: linear-gradient(90 deg);
-  background: #59b5d2;
+  background: linear-gradient(180deg, #59b5d2 0%, rgba(89, 181, 210, 0) 100%);
 }
