@@ -1,7 +1,7 @@
 .top-nav {
   height: 140vh;
   background: linear-gradient(180deg, #59b5d2 0%, rgba(89, 181, 210, 0) 100%);
-  background: url(./assets/cover_logo.jpg) no-repeat center center;
+  background: url(./assets/cover_page.jpg) no-repeat center center;
   /* line 4 added another center (one each for vertically and horizontally)for as if 
   the image size is not proportionate to the div size then it will either match the 
   hight and distort the width or it will match the width and distort the height */
@@ -10,10 +10,48 @@
 
 a.nav-link {
   font-weight: bold;
-  color: orangered !important;
+  color: white !important;
   letter-spacing: 0.1em;
 }
 a.nav-link:hover {
-  color: orangered !important;
+  color: white !important;
   /* cursor: pointer !important; */
+}
+
+.sec-title {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 3rem;
+}
+
+.sec-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  /* align-items: center; */
+  /* justify-content: center; */
+  margin: auto;
+
+  font-size: 2rem;
+  margin-top: 3rem;
+}
+
+footer {
+  position: relative;
+}
+
+.up {
+  position: absolute;
+  right: 10px;
+  top: -20px;
+  width: 50px;
+  height: 50px;
+  background: white;
+  color: black;
+  font-style: 2rem;
+  border: black solid 1px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
