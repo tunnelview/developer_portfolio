@@ -36,6 +36,11 @@ a.nav-link:hover {
   margin-top: 3rem;
 }
 
+.Projects {
+  background: crimson;
+  color: white;
+}
+
 footer {
   position: relative;
 }
