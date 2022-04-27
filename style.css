@@ -33,6 +33,18 @@ a.nav-link:hover {
   margin-top: 3rem;
 }
 
+/* titles */
+.title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.title span {
+  padding: 0.5rem 2rem;
+  border: bottom 0.4rem solid green;
+  margin-bottom: 3rem;
+}
+
 .sec-content {
   display: flex;
   justify-content: center;
@@ -65,4 +77,15 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* icons */
+.icons i {
+  font-size: 5rem;
+}
+
+.icons > div {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
 }
