@@ -89,3 +89,13 @@ footer {
   flex-direction: column;
   padding: 1rem;
 }
+
+/* projects section */
+.projects {
+  background: green;
+}
+.projects .row {
+  --bs-gutter-x: 0;
+}
+.c-p {
+}
